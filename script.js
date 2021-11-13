@@ -55,37 +55,37 @@ function onRepaint() {
 onRepaint();
 function giveFeedback(score) {
   if (score == 0) {
-    return "PERFECT!!";
+    return "PERFECT!! 🤩🤩";
   }
   if (score <= 10) {
-    return "Legendary score";
+    return "Legendary score 🥳️🥳️";
   }
   if (score <= 20) {
-    return "Great Job HAHA";
+    return "Great Job HAHA 👍";
   }
   if (score <= 40) {
-    return "not bad, i guess..";
+    return "not bad, i guess.. 😱";
   }
   if (score <= 70) {
-    return "try harder next time";
+    return "try harder next time 😭";
   }
   if (score <= 100) {
-    return "you're on the right track";
+    return "you're on the right track 😕";
   }
   if (score <= 150) {
-    return "come on, you can do better than that";
+    return "come on, you can do better than that 🤡🤡🤡";
   }
   if (score <= 200) {
-    return "you know what they say, practice makes perfect";
+    return "you know what they say, practice makes perfect 😉";
   }
   if (score <= 300) {
-    return "even celia could do better than that";
+    return "even celia could do better than that 🐄😔";
   }
   if (score <= 500) {
-    return "LOSER ALERT";
+    return "🚨 LOSER ALERT 🚨";
   }
   if (score <= 750) {
-    return "you suck noob";
+    return "You're trash at this game 🗑️";
   }
-  return "you make me sick";
+  return "you make me sick 🤮";
 }
