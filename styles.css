@@ -1,0 +1,67 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+  animation-name: bounce-1;
+  animation-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+@keyframes bounce-1 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button.stop {
+  background-color: #f10000;
+  animation: none;
+}
+
+#heading {
+  font-size: 50px;
+  margin: 0px;
+  font-family: "Bebas Neue", cursive;
+  background-image: linear-gradient(
+    to left,
+    violet,
+    rgb(165, 102, 211),
+    rgb(0, 183, 255),
+    rgb(66, 196, 66),
+    rgb(233, 200, 10),
+    orange,
+    red
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#feedback {
+  height: 30px;
+}
